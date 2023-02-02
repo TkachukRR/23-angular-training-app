@@ -7,9 +7,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductsListComponent } from './products-list/products-list.component';
+import { ProductAlertComponent } from './product-alert/product-alert.component';
 
 @NgModule({
-  declarations: [AppComponent, TopBarComponent, ProductsListComponent],
+  declarations: [AppComponent, TopBarComponent, ProductsListComponent, ProductAlertComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
